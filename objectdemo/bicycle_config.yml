@@ -1,0 +1,12 @@
+e1_level: &e1
+  battery_level: 10
+  vol: 10
+  run_km: 120
+
+e2_level: &e2
+  battery_level: 20
+  vol: 5
+  run_km: 230
+
+deafult:
+  <<: *e2
