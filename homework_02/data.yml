@@ -1,0 +1,26 @@
+nature1: &n1
+  pelage: 长毛
+  pelage1: 卷毛
+  name: kitty
+  name1: 黑虎
+  color: 白色
+  color1: 黑色
+  age: 3
+  age1: 5
+  sex: 母
+  sex1: 公
+
+nature2: &n2
+  pelage: 短毛
+  pelage1: 直毛
+  name: hello
+  name1: 赛虎
+  color: 黑色
+  color1: 斑点色
+  age: 1
+  age1: 15
+  sex: 公
+  sex1: 母
+
+deafult:
+  <<: *n2
